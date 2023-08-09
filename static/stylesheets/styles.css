@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: rgb(224, 235, 231);
+}
+
+.navbar {
+  background-color: rgb(3, 58, 39);
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  height: 30px;
+}
+
+.title {
+  color: rgb(222, 222, 222);
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+
+.main {
+  padding: 12px 24px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title2 {
+  font-family: 'Roboto';
+  font-size: 32px;
+  margin-top: 24px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: rgb(48, 48, 48);
+}
+
+.cards-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 8px;
+  margin-top: 24px;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(3, 58, 39);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.card-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: rgb(3, 58, 39);
+}

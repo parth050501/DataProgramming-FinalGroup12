@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Exchange Rate Comparison</title>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='stylesheets/styles.css' )}}" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <img src="{{ url_for('static', filename='logo.png' )}}" alt="logo" class="logo">
+    <p class="title">Exchange Rate Comparison</p>
+  </nav>
+  <main class="main">
+    <p class="title2">Charts</p>
+    <div class="cards-container">
+      <a href="/lineChart1" class="card-link">
+        <div class="card">
+          <p class="card-text">Line Chart for RUB</p>
+        </div>
+      </a>
+      <a href="/lineChart2" class="card-link">
+        <div class="card">
+          <p class="card-text">Line Chart for CAD</p>
+        </div>
+      </a>
+      <a href="/lineChart3" class="card-link">
+        <div class="card">
+          <p class="card-text">Line Chart for INR</p>
+        </div>
+      </a>
+     
+      <a href="/BarChart" class="card-link">
+        <div class="card">
+          <p class="card-text">Bar Chart</p>
+        </div>
+      </a>
+      <a href="/about" class="card-link">
+        <div class="card">
+          <p class="card-text">About US</p>
+        </div>
+      </a>
+    </div>
+  </main>
+</body>
+
+</html>
